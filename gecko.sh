@@ -15,7 +15,7 @@ help()
 Usage:
     $0 <LogFile> <work time(sec)> <proc time(sec)>
 Example:
-    $0 --site www.baidu.com --thread 5 --count 50 --time 2
+    $0 /var/log/nginx/access.log 10 15
  
 EOF
 }
